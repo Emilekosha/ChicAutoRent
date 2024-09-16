@@ -37,3 +37,21 @@ ScrollReveal().reveal(".range_card", {
    interval:500
 });
 
+ScrollReveal().reveal(".location_image img", {
+    ...scrollRevealoption,
+    origin: "right"
+});
+ScrollReveal().reveal(".location_content .section_header", {
+    ...scrollRevealoption,
+    delay: 500,
+});
+ScrollReveal().reveal(".location_content p", {
+    ...scrollRevealoption,
+    delay:1000,
+});
+ScrollReveal().reveal(".location_content .location_btn", {
+    ...scrollRevealoption,
+    delay:1500,
+});
+
+
