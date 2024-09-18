@@ -54,4 +54,9 @@ ScrollReveal().reveal(".location_content .location_btn", {
     delay:1500,
 });
 
+const selectCards = document.querySelectorAll(".select_card");
+selectCards[0].classList.add("show_info");
+
+const price = ["225", "455"]
+
 
